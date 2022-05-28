@@ -25,6 +25,7 @@ public class ComputerAccessories {
 			  driver = new ChromeDriver();
 			     //soft wait
 			   driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+			   System.out.println("chrome driver started");
 			         
 			           //how to maximize the browser
 			  driver.manage().window().maximize();
